@@ -9,6 +9,13 @@ public class Trabajador extends Empleado{
 		this.valoracion = valoracion;
 	}
 	
+	/**
+	 * @author Nuria Godino
+	 * Calcula el salario final según la valoración que haya obtenido el trabajador, si es entre 0 y 4 no se suma nada,
+	 * si es entre 5 y 6 se suma 50 y es entre 7 y 8 se suma 100 y si es entre 9 y 10 se suma 200
+	 * @return salario final sumandole los complementos salariales según la valoración
+	 */
+	
 	@Override
 	public Double calcularSalarioF() {
 		Double res = getSueldoBase();

@@ -9,6 +9,11 @@ public class Jefe extends Empleado{
 		this.incentivo = incentivo;
 	}
 	
+	/**
+	 * @author Nuria Godino
+	 * Le suma al salario base los incentivos
+	 * @return Sueldo base mas complemento salarial segun incentivos
+	 */
 
 	@Override
 	public Double calcularSalarioF() {

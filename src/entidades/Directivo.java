@@ -21,6 +21,13 @@ public  class Directivo extends Empleado{
 		this.empleadosCargo = empleadosCargo;
 	}
 
+	/**
+	 * @author Nuria Godino
+	 * Metodo que calcula el salario final de un directivo, este se obtiene multiplicando el numero 
+	 * de empleados que tenga a su cargo por cien.
+	 * @return sueldo base más complementos salarial por empleado a cargo
+	 */
+	
 	@Override
 	public Double calcularSalarioF() {
 		Double res = 0.0;
